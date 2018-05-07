@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1167158E209B1D8800DEC5E4 /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1167158D209B1D8800DEC5E4 /* NSDictionary+Extension.m */; };
 		11C4E52E209992F700BD8497 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C4E52D209992F700BD8497 /* AppDelegate.m */; };
 		11C4E531209992F700BD8497 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C4E530209992F700BD8497 /* ViewController.m */; };
 		11C4E534209992F700BD8497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C4E532209992F700BD8497 /* Main.storyboard */; };
@@ -16,6 +17,10 @@
 		11C4E53F209992F800BD8497 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C4E53E209992F800BD8497 /* main.m */; };
 		11C4E549209992F900BD8497 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C4E548209992F900BD8497 /* DemoTests.m */; };
 		11C4E554209992F900BD8497 /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C4E553209992F900BD8497 /* DemoUITests.m */; };
+		11C4E5632099933400BD8497 /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C4E5622099933400BD8497 /* BaseObject.m */; };
+		11C4E56620999FEB00BD8497 /* UIView+new.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C4E56520999FEB00BD8497 /* UIView+new.m */; };
+		11C4E56A2099A06100BD8497 /* new3.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C4E5692099A06000BD8497 /* new3.m */; };
+		11C4E56E2099A09900BD8497 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C4E56D2099A09900BD8497 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1167158C209B1D8800DEC5E4 /* NSDictionary+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extension.h"; sourceTree = "<group>"; };
+		1167158D209B1D8800DEC5E4 /* NSDictionary+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extension.m"; sourceTree = "<group>"; };
 		11C4E529209992F700BD8497 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C4E52C209992F700BD8497 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11C4E52D209992F700BD8497 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +60,16 @@
 		11C4E54F209992F900BD8497 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C4E553209992F900BD8497 /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		11C4E555209992F900BD8497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C4E5612099933400BD8497 /* BaseObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseObject.h; sourceTree = "<group>"; };
+		11C4E5622099933400BD8497 /* BaseObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseObject.m; sourceTree = "<group>"; };
+		11C4E56420999FEB00BD8497 /* UIView+new.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+new.h"; sourceTree = "<group>"; };
+		11C4E56520999FEB00BD8497 /* UIView+new.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+new.m"; sourceTree = "<group>"; };
+		11C4E5672099A01600BD8497 /* UIView+new1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+new1.h"; sourceTree = "<group>"; };
+		11C4E5682099A04900BD8497 /* NSDate+new2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+new2.h"; sourceTree = "<group>"; };
+		11C4E5692099A06000BD8497 /* new3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = new3.m; sourceTree = "<group>"; };
+		11C4E56B2099A07B00BD8497 /* new4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = new4.h; sourceTree = "<group>"; };
+		11C4E56C2099A09900BD8497 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		11C4E56D2099A09900BD8497 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +100,8 @@
 		11C4E520209992F700BD8497 = {
 			isa = PBXGroup;
 			children = (
+				1167158C209B1D8800DEC5E4 /* NSDictionary+Extension.h */,
+				1167158D209B1D8800DEC5E4 /* NSDictionary+Extension.m */,
 				11C4E52B209992F700BD8497 /* Demo */,
 				11C4E547209992F900BD8497 /* DemoTests */,
 				11C4E552209992F900BD8497 /* DemoUITests */,
@@ -106,12 +125,22 @@
 				11C4E52C209992F700BD8497 /* AppDelegate.h */,
 				11C4E52D209992F700BD8497 /* AppDelegate.m */,
 				11C4E52F209992F700BD8497 /* ViewController.h */,
+				11C4E5612099933400BD8497 /* BaseObject.h */,
+				11C4E5622099933400BD8497 /* BaseObject.m */,
+				11C4E56420999FEB00BD8497 /* UIView+new.h */,
+				11C4E56520999FEB00BD8497 /* UIView+new.m */,
 				11C4E530209992F700BD8497 /* ViewController.m */,
 				11C4E532209992F700BD8497 /* Main.storyboard */,
 				11C4E538209992F800BD8497 /* Assets.xcassets */,
 				11C4E53A209992F800BD8497 /* LaunchScreen.storyboard */,
 				11C4E53D209992F800BD8497 /* Info.plist */,
 				11C4E53E209992F800BD8497 /* main.m */,
+				11C4E5672099A01600BD8497 /* UIView+new1.h */,
+				11C4E5682099A04900BD8497 /* NSDate+new2.h */,
+				11C4E5692099A06000BD8497 /* new3.m */,
+				11C4E56B2099A07B00BD8497 /* new4.h */,
+				11C4E56C2099A09900BD8497 /* UIView+Extension.h */,
+				11C4E56D2099A09900BD8497 /* UIView+Extension.m */,
 				11C4E535209992F700BD8497 /* Demo.xcdatamodeld */,
 			);
 			path = Demo;
@@ -266,8 +295,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				11C4E537209992F700BD8497 /* Demo.xcdatamodeld in Sources */,
+				11C4E56620999FEB00BD8497 /* UIView+new.m in Sources */,
+				1167158E209B1D8800DEC5E4 /* NSDictionary+Extension.m in Sources */,
+				11C4E5632099933400BD8497 /* BaseObject.m in Sources */,
+				11C4E56A2099A06100BD8497 /* new3.m in Sources */,
 				11C4E531209992F700BD8497 /* ViewController.m in Sources */,
 				11C4E53F209992F800BD8497 /* main.m in Sources */,
+				11C4E56E2099A09900BD8497 /* UIView+Extension.m in Sources */,
 				11C4E52E209992F700BD8497 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
